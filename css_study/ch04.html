@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+        
+
+        .box {
+            box-sizing: border-box;
+            margin: 300px auto;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+            width: 485px;
+            height: 310px;
+            position: relative; /* 원래 위치(static)를 기준으로 맞춰준다*/
+        }
+        .upperbox {
+            border: 1px solid green;
+            position: absolute; /* 부모 위치를 기준으로 맞춰준다*/
+            border-radius: 25px;
+            z-index: 0;
+            width: 246px;
+            height: 250px;
+            right: -10px;
+            top: -5px;
+            background-color: white;
+        }
+        .X{
+            transform: translateY(-50%); /*축 이동, 박스 모서리가 네모에 붙어있는데 박스의 중점을 사각형의 모서리에 고정시키는 역할 */
+            transform: translateX(-50%); /* 캐스케이드가 적용되어 Y가 적용 안된다 */
+            transform: translate(-50%,-50%);
+            position:absolute;
+            color: green;
+            left: 50%;
+            top: 50%;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="upperbox">
+            <div class="X">X</div>
+        </div>
+    </div>
+  
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+           display: flex;  /* 인라인블록쓰면 자간이 생겨 빈공간이 생긴다 */
+           flex-direction: row;  /* 기본 방향: row */
+           justify-content: space-around; /*기본값은 flex-start */
+           justify-content: space-between; /* 이거랑 center를 가장 많이 쓴다*/
+           justify-content: center;
+           align-items: center;/* 높이에서의 가운데 */
+           flex-wrap: wrap; /* 줄바꿈 (구글이미지) */
+           border: 1px solid #000;
+           height: 400px;
+        }
+        .box1 {
+            border: 1px solid #000;
+            width: 100px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box1"></div>
+   
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+    </div>
+</body>
+</html>

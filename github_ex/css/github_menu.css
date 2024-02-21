@@ -1,0 +1,36 @@
+.side-bar-layout {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    height: 100%;
+}
+.side-bar-container {
+    background-color: white;
+    border-radius: 5px;
+    width: 320px;
+    height: 100%;
+    box-shadow: 1px 0px 10px #00000011;
+}
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 8px 0px;
+}
+.sidebar-logo {
+    width: 48px;
+    height: 48px;
+    padding: 8px 0px 6px 8px;
+}
+.sidebar-button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: white;
+    &:hover {
+        background-color: #dbdbdb;
+    }
+}

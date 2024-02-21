@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카카오계정</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+
+        .box{
+            box-sizing: border-box; 
+            margin: 40px auto 42px; 
+            border: 3px solid #222; 
+            padding: 0 69px; 
+            padding-top: 10px;
+            width: 500px; 
+            height: 500px; 
+        }
+
+        div input, div button {
+            display: inline;
+            margin: 0px auto;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+    </style> 
+</head>
+    <h1>kakao</h1>
+<body>
+    <section class="box">
+
+        <form action="get">
+
+                        <div>
+                            <input type="id" name="id" id="id" placeholder = "카카오메일 아이디, 이메일, 전화번호" font-family: 'Noto Serif KR', serif;>
+                        </div>
+                        <div>
+                            <input type="password" name="password" id="pw" placeholder = "비밀번호">
+                        </div>
+                        <div>
+                            <input type="checkbox" id="rememberMe" name = "saveid" value="saveid">
+                            <label for="rememberMe">간편로그인 정보 저장</label> <!--label을 눌러도 체크가 되게끔 묶어줌-->
+                        </div>
+            <div>
+                <button type="submit">로그인</button>
+                <div>또는</div>
+                <button type="submit">QR코드 로그인</button>
+            </div>
+            <div>
+                <div>
+                    <a href="https://accounts.kakao.com/weblogin/create_account/?lang=ko&continue=https%3A%2F%2Fmail.kakao.com#selectVerifyMethod">회원가입</a>
+                    <a href="https://accounts.kakao.com/weblogin/find_account?lang=ko&continue=%2Flogin%3Fcontinue%3Dhttps%253A%252F%252Fmail.kakao.com">계정찾기</a>
+                    <a href="https://accounts.kakao.com/weblogin/find_password?lang=ko&continue=%2Flogin%3Fcontinue%3Dhttps%253A%252F%252Fmail.kakao.com">비밀번호 찾기</a>
+                </div>
+            </div>
+
+            </div>
+        </form>
+    </section>
+    <ul>
+    <a href="https://www.kakao.com/policy/terms?lang=ko"><li>이용약관</li></a>
+    <a href="https://www.kakao.com/policy/privacy?lang=ko"><li>개인정보 처리방침</li></a>
+    <a href="https://www.kakao.com/policy/oppolicy?lang=ko"><li>운영정책</li></a>
+    <a href="https://cs.kakao.com/"><li>고객센터</li></a>
+    <a href="https://www.kakao.com/notices?lang=ko"><li>공지사항</li></a>
+    <li>
+        <select name="language" id="language">
+            <option value="1">한국어</option>
+            <option value="2">English</option>
+            <option value="3">일본어</option>
+        </select>
+    </li>
+    </ul>   
+    <p>Copyright Kakao Corp. All rights reserved</p>
+</body>
+</html>

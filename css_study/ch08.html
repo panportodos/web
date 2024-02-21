@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:active { 
+            background-color: #222;
+        }
+        input:focus { 
+            background-color: pink;
+        }
+        button{ /*원래 버튼 기본기능인 액티브랑 호버를 없앰*/
+            border: 1px solid red;
+            background-color: white;
+            cursor: pointer;/*항상 설정하기*/
+        }
+        button:hover {
+            background-color: red;
+        }
+        button:active{
+            background-color: pink;
+        }
+
+
+    </style>
+</head>
+<body>
+    <input type="text">
+    <button>확인</button>
+</body>
+</html>

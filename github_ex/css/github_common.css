@@ -1,0 +1,21 @@
+.header-container {
+    background-color: #dee2e8;
+    width: 100%;
+    height: 68px;
+    border-bottom: 1px solid #dbdbdb;
+    align-items: center;
+}
+
+.header-button {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    opacity: 0.5;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    margin: 5px;
+    align-content: center;
+    align-items: center;
+
+}

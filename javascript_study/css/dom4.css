@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+.box-container1 {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid #333;
+    width: 800px;
+    height: 600px;
+}
+.box-container2 {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid #333;
+    width: 800px;
+    height: 600px;
+}
+.box-containers {
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.box {
+    margin: 10px;
+    border: 1px solid #333;
+    width: 100px;
+    height: 100px;
+}
+
+.red-box {
+    background-color: red;
+}
+.blue-box {
+    background-color: blue;
+}

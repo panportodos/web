@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Users/ITPS/Downloads/korit_back_5_web_basic_study-main/array_study"
+		},
+		{
+			"path": "../../../Users/ITPS/Downloads/korit_back_5_web_basic_study-main/todolist"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web"
+	}
+}
